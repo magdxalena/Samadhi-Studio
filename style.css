@@ -91,5 +91,12 @@ header {
       padding-right: 0rem;
   }
 
+  .links {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+  }
+
 
 }

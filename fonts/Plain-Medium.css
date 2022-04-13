@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"Plain-Medium";
+    src:url("Plain-Medium.woff2") format("woff2"),url("Plain-Medium.woff") format("woff"),url("Plain-Medium.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

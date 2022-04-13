@@ -1,0 +1,95 @@
+@font-face {
+    font-family:"Plain Light";
+    src:url("fonts/Plain-Light.woff2") format("woff2"),url("fonts/Plain-Light.woff") format("woff"),url("fonts/Plain-Light.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+:root {
+    --c-black: #000;
+    --c-white: #fff;
+    --c-info: #A6A6A6;
+    --c-link: #2E76F6;
+    --c-link-visited: #2156B7;
+    --c-line: 1px solid #A6A6A6;
+}
+
+html { box-sizing: border-box }
+*, *:before, *:after { box-sizing: inherit }
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li { margin: 0; padding: 0 }
+
+html {
+    font-family: "Plain Light", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+body {
+}
+
+p {
+    font-size: inherit;
+    line-height: 1.2rem;
+}
+
+a {
+    font-size: inherit;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+img {
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.space {
+    padding-bottom: 1rem;
+}
+
+.space-big {
+    padding-bottom: 3rem;
+}
+
+header {
+  padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33%;
+    padding-right: 3rem;
+}
+
+.links {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+}
+
+.gradient {
+  height: 100vh;
+  overflow: auto;
+  background: rgb(255,233,0);
+  background: radial-gradient(circle, rgba(255,233,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+@media screen and (max-width: 600px) {
+
+  .box {
+      width: 100%;
+      padding-right: 0rem;
+  }
+
+
+}

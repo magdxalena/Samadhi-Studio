@@ -80,7 +80,7 @@ header {
 .gradient {
   height: 100vh;
   overflow: auto;
-  background: rgb(255,222,183);
+  background: rgb(255,170,160);
   background: radial-gradient(circle, rgba(255,185,100,1) 0%, rgba(255,230,100,1) 100%);
      background-size: 400% 400%;
 

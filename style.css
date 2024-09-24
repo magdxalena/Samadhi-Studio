@@ -28,7 +28,7 @@ body {
 
 p {
     font-size: inherit;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
 }
 
 a {
@@ -108,7 +108,7 @@ header {
 @media screen and (max-width: 600px) {
 
     font-size: 1.2;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
 
     header {
       padding: 1rem;

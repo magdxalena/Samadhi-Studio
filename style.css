@@ -108,12 +108,12 @@ header {
 @media screen and (max-width: 600px) {
 
     html {
-    font-size: 1.2;
+    font-size: 1.2rem;
     line-height: 1.6rem;
     }
 
     header {
-      padding: 1rem;
+      padding: 1.5rem 2rem 1.5rem 1.5rem;
     }
 
   .box {
@@ -125,7 +125,7 @@ header {
     position: relative;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
 

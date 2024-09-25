@@ -107,8 +107,10 @@ header {
 
 @media screen and (max-width: 600px) {
 
+    html {
     font-size: 1.2;
     line-height: 1.6rem;
+    }
 
     header {
       padding: 1rem;
